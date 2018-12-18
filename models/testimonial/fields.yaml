@@ -1,0 +1,38 @@
+fields:
+    name:
+        label: 'Cliente'
+        span: auto
+        required: 1
+        comment: 'Ingrese el nombre del cliente exactamente como se mostrará en el sitio'
+
+    job:
+        label: 'Cargo'
+        span: auto
+        required: 1
+        comment: 'Si lo desea, incluya el nombre de la empresa que representa el cliente'
+
+    testimonial:
+        label: 'Testimonio'
+        size: small
+        required: 1
+        type: textarea
+
+    is_published:
+        label: '¿Publicado?'
+        span: auto
+        type: switch
+        comment: 'Determine si debe mostrarse este testimonio en el sitio web'
+
+    featured_image:
+        label: 'Fotografía'
+        mode: image
+        prompt: 'Seleccione una fotografía del cliente'
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload

@@ -1,0 +1,5 @@
+title: 'Ordenar Testimonios'
+modelClass: Wiz\Testimonials\Models\Testimonial
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

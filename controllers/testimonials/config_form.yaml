@@ -1,0 +1,12 @@
+name: Testimonios
+modelClass: Wiz\Testimonials\Models\Testimonial
+form: $/wiz/testimonials/models/testimonial/fields.yaml
+defaultRedirect: wiz/testimonials/testimonials
+create:
+    title: 'Crear Testimonio'
+    redirect: 'wiz/testimonials/testimonials/update/:id'
+    redirectClose: wiz/testimonials/testimonials
+update:
+    title: 'Actualizar Testimonio'
+    redirect: wiz/testimonials/testimonials
+    redirectClose: wiz/testimonials/testimonials

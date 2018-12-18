@@ -1,0 +1,39 @@
+columns:
+    id:
+        label: 'ID'
+        type: number
+        searchable: 1
+        invisible: 1
+        
+    name:
+        label: 'Cliente'
+        searchable: 1
+        
+    job:
+        label: 'Cargo'
+        searchable: 1
+        
+    testimonial:
+        label: 'Testimonio'
+        type: wiz_testimonials_html
+        searchable: 1
+        invisible: 1
+        
+    is_published:
+        label: 'Publicado'
+        type: switch
+        
+    sort_order:
+        label: 'Orden'
+        type: number
+        
+    created_at:
+        label: 'Creación'
+        type: datetime
+        invisible: 1
+        format: 'd/m/y H:i'
+        
+    updated_at:
+        label: 'Última actualización'
+        type: datetime
+        format: 'd/m/y H:i'
