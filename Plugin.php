@@ -8,8 +8,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'wiz.faqs::lang.plugin.name',
-            'description' => 'wiz.faqs::lang.plugin.description',
+            'name'        => 'wiz.testimonials::lang.plugin.name',
+            'description' => 'wiz.testimonials::lang.plugin.description',
             'author'      => 'Wiz Comunicaciones',
             'icon'        => 'icon-check-square',
             'iconSvg'     => '/plugins/wiz/testimonials/assets/images/plugin-icon.svg',
